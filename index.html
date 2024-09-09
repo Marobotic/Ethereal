@@ -1,0 +1,566 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Aion 3.9: Ethereal Aion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Aion 3.9: Ethereal Aion">
+    <link href="assets/images/fav_icon.png" rel="shortcut icon">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="style/mobile.css" rel="stylesheet" type="text/css">
+    <link href="style/Navigation.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="style/tooltip.js"></script>
+    <meta name="keywords" content="Aion, Ethereal, Ethereal Aion, Aion 3.9, Tiamat, Tiamaranta, Sarpan, 3.9">
+    <meta property="og:image" content="assets/images/warrior.png">
+    <meta property="og:title" content="Ethereal Aion - Aion 3.9">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.etherealaion.com/">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/972782275810955285/988133340932628510/splash03---Copy.png">
+    <meta property="og:description" content="Ethereal Aion is a 3.9 private server dedicated to bring back old school AION without pay to win element or useless grind like leveling!">
+    <meta name="theme-color" content="#63a7ff">
+    <!-- Include this to make the og:image larger -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Page Navigation -->
+    <link rel="stylesheet" type="text/css" href="style/page.css">
+    <script type="text/javascript" src="style/page.js"></script>
+    <script type="text/javascript" src="style/page_admin.js"></script>
+    <script type="text/javascript" src="assets/javaScript/script.js"></script>
+    <!-- BB Code -->
+    <link rel="stylesheet" type="text/css" href="style/bbcodes.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css">
+    <!--    <script type="text/javascript" src="style/jquery.min.js"></script>
+    <script type="text/javascript" src="style/jquery.cleditor.min.js"></script> -->
+    <!-- Knowledge Base -->
+    <!--     <script type="text/javascript" src="style/aiondatabase.js"></script> -->
+    <!--     <script type="text/javascript" src="http://www.aiondatabase.com/js/exsyndication.js"></script> -->
+</head>
+
+<body>
+    <div class="">
+        <div class="flux2">
+            <div class="papyrus_div" style="height: 0px; display: none;">
+                <button class="papyrus_test_close" style="display: none;"> X </button>
+                <center>
+                    <form method="POST" action="/index" abineguid="">
+                        <input placeholder="Username" class="username_login" type="text" name="name" size="15">
+                        <input placeholder="Password" class="username_password" type="password" name="password" size="15">
+                        <input type="submit" name="enter" class="submit_button " value="Submit">
+                        <p class="error1 error_text">Incorrect Username or Password</p>
+                        <p class="error2 error_text">You must fill all the fields</p>
+                        <button type="button" class="submit_button" onclick="lost()">Forgot Password</button>
+                        <script>function lost(){location.href='lostpassword.html';}</script>
+                    </form>
+                    <div>
+                        <div class="seperator" style="margin-top: 15px;"> </div>
+                        <p style="text-align: center;"> Dont have an account? </p>
+                        <p>
+                        </p>
+                    </div>
+                    <a href="register.html"> <button class="submit_button register_button" style="margin-top: 0px;"> Register now!</button></a>
+                </center>
+            </div>
+        </div>
+        <div class="width" style="margin-top: 100px">
+            <!--? //include "modules/navigation";?-->
+            <div class="menu_buttons shrink">
+                <a href="index.html">
+                    <img src="assets/images/ea_icon_1.png" height="100px" style="position: absolute; top: 0; margin-top: -10px"> </a>
+                <div class="dropdown_div News_drop" style="z-index:99; margin-left: 100px ">
+                    <a href="index.html">
+                        <button class="butt" unselectable="on" onselectstart="return false;" onmousedown="return false;">Home</button>
+                    </a>
+                </div>
+                <div class="Features_drop" style="z-index:99;">
+                    <a href="features.html">
+                        <button class="butt features" unselectable="on" onselectstart="return false;" onmousedown="return false;">Features</button>
+                    </a>
+                    <div class="features_menu" style="position: absolute; display: none;">
+                        <a href="schedule.html">
+                            <div class="dropped_button">Server Schedule </div>
+                        </a>
+                        <a href="abyss.html">
+                            <div class="dropped_button"> Abyss Board</div>
+                        </a>
+                        <a href="kill.html">
+                            <div class="dropped_button">Kill Board</div>
+                        </a>
+                        <a href="legion.html">
+                            <div class="dropped_button"> Legion Board </div>
+                        </a>
+                        <a href="mayonesa_search.html">
+                            <div class="dropped_button">Player Search </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="Support_drop" style="z-index:99;">
+                    <a href="support.html">
+                        <button class="butt" unselectable="on" onselectstart="return false;" onmousedown="return false;">Support</button>
+                    </a>
+                    <div class="support_menu" style="position: absolute; display: none;">
+                        <a href="rules.html">
+                            <div class="dropped_button"> Server Rules</div>
+                        </a>
+                        <a href="starter_guide.html">
+                            <div class="dropped_button"> Starter Guide</div>
+                        </a>
+                        <a href="guide.html">
+                            <div class="dropped_button"> General Guide</div>
+                        </a>
+                    </div>
+                </div>
+                <a href="download.html">
+                    <button class="butt" unselectable="on" onselectstart="return false;" onmousedown="return false;">Download</button>
+                </a>
+                <a> <button class="login_tests butt"> Log in</button> </a>
+            </div>
+            <div class="head-menu border-top shadow"> </div>
+        </div>
+        <nav role="navigation" class="mobile" style="width: 100%; height: 100%">
+            <div id="menuToggle">
+                <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+                <input type="checkbox">
+                <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+                <span></span>
+                <span></span>
+                <span></span>
+                <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+                <ul id="menu">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="features.html">
+                        <li>Features</li>
+                    </a>
+                    <a href="support.html">
+                        <li>Support</li>
+                    </a>
+                    <a href="download.html">
+                        <li>Download</li>
+                    </a>
+                    <a href="login.html">
+                        <li>Login</li>
+                    </a>
+                    <a href="register.html">
+                        <li>Register</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <div class="case">
+            <div class="content">
+                <!-- <div class="big_window">
+    <image src="assets/images/ea_icon_1.png" class="game_logo"></image>
+    <p class="big_text"> Ethereal Aion!</p>
+    <p class="big_text">Aion 3.9 Server for PVP and PVE!</p>
+ 
+</div> -->
+                <div class="home">
+                    <center>
+                        <div class="game_logo"></div>
+                    </center>
+                    <div class="news_window">
+                        <div class="news_sub_window">
+                            <div class="home_2">
+                                <a href="register.html">
+                                    <div class="join_window">
+                                        <div class="join_image" style="width: 100%; height: 100%; position: absolute;"> </div>
+                                        <p class="Join_text"> Register now! </p>
+                                        <p class="join_sub_text"> Aion 3.9 server for PvPvE </p>
+                                    </div>
+                                </a>
+                                <!-- ServerAion Web by Pr00f & Sky (serveraion.ru) -->
+                                <!-- ServerAion Web 2.0 German by R3spons4bl3 (silkroad-german.de) -->
+                                <div class="sidebar" style="display: none;">
+                                    <div class="">
+                                        <div class="statistics">
+                                            <div class="stat_info">
+                                                <div class="server_info_image" style="width: 100%; height: 100%; position: absolute;"> </div>
+                                                <p class="statistics_title"> Server Statistics </p>
+                                                <div class="schedule_timers">
+                                                    <p><i class="fad fa-file-user"></i> Accounts Created:
+                                                        4 </p>
+                                                </div>
+                                                <div class="schedule_timers">
+                                                    <p> <i class="fad fa-user-chef"></i> GMs Available:
+                                                        2 </p>
+                                                </div>
+                                                <div class="schedule_timers">
+                                                    <p> <i class="fad fa-user-gear"></i> Elyos:
+                                                        1135 </p>
+                                                </div>
+                                                <div class="schedule_timers">
+                                                    <p>Asmo:
+                                                        1250 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--         <button class="home_download"> Download client </button> -->
+                                <div class="server_info not_mobile" style="position: relative;">
+                                    <div class="server_info_image" style="width: 100%; height: 100%; position: absolute;"> </div>
+                                    <p class="server_info_title"> Server Status </p>
+                                    <div class="seperator" style="margin-top: -12px;"> </div>
+                                    <div class="schedule_timers">
+                                        <p><i class="fad fa-server"></i> Server Location: Frankfurt, Germany
+                                        </p>
+                                    </div>
+                                    <div class="schedule_timers">
+                                        <p><i class="fad fa-dice-d6"></i> Game Patch: 3.9 </p>
+                                    </div>
+                                    <div class="schedule_timers">
+                                        <p>
+                                            <i class="fad fa-key"></i>
+                                            Login Server: <font color="red"><b>Offline</b></font>
+                                        </p>
+                                    </div>
+                                    <div class="schedule_timers">
+                                        <p>
+                                            <i class="fad fa-bullseye-arrow"></i>
+                                            Game Server: <font color="red"><b>Offline</b></font>
+                                        </p>
+                                    </div>
+                                    <div class="schedule_timers">
+                                        <p>
+                                            <i class="fad fa-users"></i>
+                                            Players Online: <b>
+                                                <font color="white">0</font>
+                                            </b> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a>
+                        </a>
+                        <div class="social_media_hub black not_mobile"><a href="https://discord.com" target="_blank" tooltip="(Opens in new Window)">
+                                <div class="mini_holder" style="margin-left: 165px;">
+                                    <div class="mini_card">
+                                        <div class="card_icon">
+                                            <svg style="fill:#fff" xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="mini_card_text"> Discord</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" tooltip="(Opens in new Window)">
+                                <div class="mini_holder">
+                                    <div class="mini_card">
+                                        <div class="card_icon">
+                                            <svg style="fill:#fff" xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="mini_card_text"> Facebook </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" tooltip="(Opens in new Window)">
+                                <div class="mini_holder">
+                                    <div class="mini_card">
+                                        <div class="card_icon">
+                                            <svg style="fill:#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                            </svg>
+                                        </div>
+                                        <p class="mini_card_text"> YouTube </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="abyss.html">
+                                <div class="mini_holder">
+                                    <div class="mini_card">
+                                        <img class="bigger_card_icon" src="assets/images/abyss_ranking_icon.png">
+                                        <p class="mini_card_text"> Abyss </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="kill.html">
+                                <div class="mini_holder">
+                                    <div class="mini_card">
+                                        <img class="bigger_card_icon" src="assets/images/kill_count_icon.png">
+                                        <p class="mini_card_text">Kills </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <div class="news responsive_news">
+                        <!--   beer event news -->
+                        <a href="beer_lootbox.html" target="_self" style="width:  unset !important; height: unset !important; padding-bottom: 5px; padding-top: 5px;">
+                            <div class="small_card box_shadow" id="three">
+                                <div style="padding: 10px">
+                                    <img class="responsive_news_image" src="assets/images/beer_event.png" style="display: block;">
+                                </div>
+                                <div class="responsive_news_data">
+                                    <div style="display: flex; justify-content: left; margin-left: 26px;">
+                                        <div style="background: #1e2236;  border-radius:25px; padding:0px; margin:  0px; display: inline-block;">
+                                            <p class="news_date animate"> 9/5/2022 </p>
+                                        </div>
+                                    </div>
+                                    <p class="card_event noselect" style="color: #63a7ff;">Free Beer lootbox</p>
+                                    <p class="card_desc" style="padding:0px 30px 0px 30px;color:#fff; text-align: left; "> Be more active to earn Beer Lootbox to unlock awesome cosmetics, consumables and more!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="patch_1.0.html" target="_self" style="width: unset !important; height: unset !important;padding-bottom: 5px;padding-top: 5px;padding-right: 5px;">
+                            <div class="small_card box_shadow" id="three">
+                                <div style="padding: 10px">
+                                    <img class="responsive_news_image" src="assets/images/events/ea_release.jpg" style="display: block;">
+                                </div>
+                                <div class="responsive_news_data">
+                                    <div style="display: flex; justify-content: left; margin-left: 26px;">
+                                        <div style="background: #1e2236;  border-radius:25px; padding:0px; margin:  0px;  display: inline-block;">
+                                            <p class="news_date animate"> 7/1/2022 </p>
+                                        </div>
+                                    </div>
+                                    <p class="card_event noselect" style="color: #63a7ff;"> Ethereal Aion 3.9 Release</p>
+                                    <p class="card_desc" style="padding:0px 30px 0px 30px; color:#fff;text-align: left;"> Ethereal Aion patch on release! everything you need to know about our server updates!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </center>
+                <div class="seperator" style="margin-left: 50px; margin-right: 50px; margin-top: 25px; margin-bottom:25px;"></div>
+                <div class="second_row_cards">
+                    <div class="schedule_card">
+                        <div class="side_card_text_container">
+                            <p class="side_card_text" id="today">Server Schedule - Tuesday (today)</p><a href="schedule.html"> <button class="side_card_button">View all Timers </button></a>
+                        </div>
+                        <!--   Border here -->
+                        <div class="seperator"></div>
+                        <div class="schedule_titles">
+                            <p class="schedule_card_event"> Event</p>
+                            <p class="schedule_card_availbility">Availablility</p>
+                        </div>
+                        <script src="assets/javascript/schedule.js"></script>
+                        <div class="overflow_changelog">
+                            <div class="Saturday" style="display: none;">
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion</p>
+                                    <p class="schedule_card_countdown" id="saturday_12" style=";">3:12:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="saturday_18" style=";">3:18:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion</p>
+                                    <p class="schedule_card_countdown" id="saturday_19" style=";">3:19:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="saturday_22" style=";">3:22:50:56</p>
+                                </div>
+                            </div>
+                            <div class="Sunday" style="display: none;">
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion</p>
+                                    <p class="schedule_card_countdown" id="sunday_12" style=";">4:12:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="sunday_18" style=";">4:18:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion</p>
+                                    <p class="schedule_card_countdown" id="sunday_19" style=";">4:19:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="sunday_22" style=";">4:22:50:56</p>
+                                </div>
+                            </div>
+                            <div class="Monday" style="display: none;">
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion </p>
+                                    <p class="schedule_card_countdown" id="monday_12x" style=";">5:12:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege </p>
+                                    <p class="schedule_card_countdown" id="monday_18" style=";">5:18:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion </p>
+                                    <p class="schedule_card_countdown" id="monday_19" style=";">5:19:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege </p>
+                                    <p class="schedule_card_countdown" id="monday_22" style=";">5:22:50:56</p>
+                                </div>
+                            </div>
+                            <div class="Tuesday" style="">
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion</p>
+                                    <p class="schedule_card_countdown" id="tuesday_12x" style=";">6:12:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="tuesday_18" style=";">6:18:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text">Dredgion</p>
+                                    <p class="schedule_card_countdown" id="tuesday_19" style=";">6:19:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text">Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="tuesday_22" style=";">6:22:50:56</p>
+                                </div>
+                            </div>
+                            <div class="Wednesday" style="display: none;">
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text"> Dredgion</p>
+                                    <p class="schedule_card_countdown" id="wednesday_12" style=";">0:12:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text"> Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="wednesday_18" style=";">0:18:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                    <p class="schedule_card_text"> Dredgion</p>
+                                    <p class="schedule_card_countdown" id="wednesday_19" style=";">0:19:50:56</p>
+                                </div>
+                                <div class="schedule_timers">
+                                    <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                    <p class="schedule_card_text"> Tiamaranta Siege</p>
+                                    <p class="schedule_card_countdown" id="wednesday_22" style=";">0:22:50:56</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Thursday" style="display: none;">
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                <p class="schedule_card_text"> Dredgion</p>
+                                <p class="schedule_card_countdown" id="thursday_12x" style=";">1:12:50:56</p>
+                            </div>
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                <p class="schedule_card_text"> Tiamaranta Siege</p>
+                                <p class="schedule_card_countdown" id="thursday_18" style=";">1:18:50:56</p>
+                            </div>
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                <p class="schedule_card_text"> Dredgion</p>
+                                <p class="schedule_card_countdown" id="thursday_19" style=";">1:19:50:56</p>
+                            </div>
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                <p class="schedule_card_text"> Tiamaranta Siege</p>
+                                <p class="schedule_card_countdown" id="thursday_22" style=";">1:22:50:56</p>
+                            </div>
+                        </div>
+                        <div class="Friday" style="display: none;">
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                <p class="schedule_card_text"> Dredgion</p>
+                                <p class="schedule_card_countdown" id="friday_12x" style=";">2:12:50:56</p>
+                            </div>
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                <p class="schedule_card_text"> Tiamaranta Siege</p>
+                                <p class="schedule_card_countdown" id="friday_18" style=";">2:18:50:56</p>
+                            </div>
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/icons/logo_race_none.png">
+                                <p class="schedule_card_text">Dredgion</p>
+                                <p class="schedule_card_countdown" id="friday_19" style=";">2:19:50:56</p>
+                            </div>
+                            <div class="schedule_timers">
+                                <img class="mini_card_icon not_mobile" src="assets/images/tiamat_icon.png">
+                                <p class="schedule_card_text">Tiamaranta Siege</p>
+                                <p class="schedule_card_countdown" id="friday_22" style=";">2:22:50:56</p>
+                            </div>
+                        </div>
+                        <!-- <button class="support_button Full_schedule">Full Schedule (broken)</button>  -->
+                    </div>
+                    <div class="schedule_card " style="margin-bottom: 120px">
+                        <div class="side_card_text_container">
+                            <p class="side_card_text"> <i class="fad fa-users"></i> Legions </p> <a href="legion.html"> <button class="side_card_button">View all Legions</button> </a>
+                        </div>
+                        <!--   Border here -->
+                        <div class="seperator"></div>
+                        <div class="schedule_titles">
+                            <p class="schedule_card_event"> Legion name</p>
+                            <p class="schedule_card_availbility">Contribution Points</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/ely.png" tooltip="Elyos"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=220861">Heaven Shall Burn</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 365,618,825</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/ely.png" tooltip="Elyos"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=356474">Vendetta</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 303,471,694</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/ely.png" tooltip="Elyos"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=240410">Blank</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 153,473,283</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/asmo.png" tooltip="Asmodian"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=120499">Echoes</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 123,927,249</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/ely.png" tooltip="Elyos"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=103874">The Darkness Rising</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 52,669,978</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/ely.png" tooltip="Elyos"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=169968">Order of the Ardent Flame</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 41,641,588</p>
+                        </div>
+                        <div class="schedule_timers">
+                            <div class="mini_card_icon not_mobile"><img src="img_top/asmo.png" tooltip="Asmodian"> </div>
+                            <p class="schedule_card_text legion_mobile"> <a href="info_leg?action=info&amp;id=348632">Bukika Jiheishou</a></p>
+                            <p class="schedule_card_countdown" style="margin-left: 400px;"> 34,492,414</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tooltip" style="width: auto; left: -91px; top: -91px; visibility: hidden;"></div>
+</body>
+
+</html>
